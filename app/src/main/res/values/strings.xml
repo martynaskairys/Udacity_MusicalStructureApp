@@ -1,8 +1,87 @@
 <resources>
-    <string name="app_name">Udacity Musical Structure app</string>
+    <string name="app_name">Udacity MSA</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="playlists_explaining_textview">
+
+        1. Choose "Playlist name" to open a certain playlist
+        \n
+        2. Search button helps you find song, artist, playlist, album
+        \n
+        3. Settings button is for sending feedback
+        \n
+        Challenges: creating different algorithms for most played, favorites, recently added and
+        custom playlists
+
+    </string>
+
+    <string name="playlist_explaining_textview">
+
+        1. Play the whole playlist or choose a particular song\n\n
+
+        Challenges: nextRandomInt for generating random Android studio shortcuts from the list
+
+    </string>
+
+    <string name="songs_explaining_textview">
+
+        1. Choose "Song name" to play a certain song
+        \n
+        2. Search button helps you find song, artist, playlist, album
+        \n
+        3. Settings button is for sending feedback
+        \n
+        Challenges: allow app to access media files from phone/sd card, custom list
+        adapter for list of all songs
+
+    </string>
+
+    <string name="artists_explaining_textview">
+
+        1. Choose "Artist name" to play a open a certain artist
+        \n
+        2. Search button helps you find song, artist, playlist, album
+        \n
+        3. Settings button is for sending feedback
+        \n
+
+    </string>
+
+    <string name="albums_explaining_textview">
+
+        1. Choose "Album name" to open a certain album
+        \n
+        2. Search button helps you find song, artist, playlist, album
+        \n
+        3. Settings button is for sending feedback
+        \n
+
+    </string>
+
+
+
+    <string name="song_activity_explaining_text">
+        1. Plays chosen songs from the playlist.
+        \n
+        2. Skip or go to previous song. Set on repeat, add to favorites.
+        \n
+        3. Android shortcut tip is shown randomly every time you open a song
+        \n
+
+        Challenges: progress bar for playing music, using exoplayer library
+         </string>
+
+
+
+
+    <string name="android_shortcuts_text">
+        CMD + Option + l \n
+        =\n
+        reformat code </string>
+
+
 </resources>

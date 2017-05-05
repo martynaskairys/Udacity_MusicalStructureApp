@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.martynaskairys.udacitymusicalstructureapp.AllAlbumsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_border"
+
+                android:gravity="center"
+                android:id="@+id/playlists"
+                android:padding="8dp"
+
+                android:text="Playlists" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:id="@+id/songs"
+                android:background="@drawable/button_border"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Songs"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:id="@+id/artists"
+                android:background="@drawable/button_border"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Artists"
+
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:id="@+id/albums"
+                android:padding="8dp"
+                android:text="Albums"
+                android:textStyle="bold"
+                android:background="@color/primary"
+                android:textColor="@color/icons"
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:padding="16dp"
+            android:text="@string/albums_explaining_textview"
+            android:textColor="#ffffff" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/album_number_1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="01"
+                android:textColor="@color/secondary_text"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/album_name_1"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@id/album_number_1"
+                android:text="Album name"
+                android:paddingLeft="16dp"
+
+                android:textColor="@color/primary_text"
+
+                android:textSize="16sp" />
+
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/album_number_2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="01"
+                android:textColor="@color/secondary_text"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/album_name_2"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@id/album_number_2"
+                android:text="Album name"
+                android:paddingLeft="16dp"
+
+                android:textColor="@color/primary_text"
+
+                android:textSize="16sp" />
+
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/album_number_3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="01"
+                android:textColor="@color/secondary_text"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/album_name_3"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@id/album_number_3"
+                android:text="Album name"
+                android:paddingLeft="16dp"
+
+                android:textColor="@color/primary_text"
+
+                android:textSize="16sp" />
+
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/album_number_4"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="01"
+                android:textColor="@color/secondary_text"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/album_name_4"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@id/album_number_4"
+                android:text="Album name"
+                android:paddingLeft="16dp"
+
+                android:textColor="@color/primary_text"
+
+                android:textSize="16sp" />
+
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/album_number_5"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="01"
+                android:textColor="@color/secondary_text"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/album_name_5"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@id/album_number_5"
+                android:text="Album name"
+                android:paddingLeft="16dp"
+
+                android:textColor="@color/primary_text"
+
+                android:textSize="16sp" />
+
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/album_number_6"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="01"
+                android:textColor="@color/secondary_text"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/album_name_6"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@id/album_number_6"
+                android:text="Album name"
+                android:paddingLeft="16dp"
+
+                android:textColor="@color/primary_text"
+
+                android:textSize="16sp" />
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

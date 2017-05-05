@@ -10,14 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".AllPlaylistsActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+           >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlaylistActivity"
+            android:label="Playlist"
+            android:parentActivityName=".AllPlaylistsActivity" />
+        <activity
+            android:name=".SongActivity"
+            android:label="Song"
+            android:parentActivityName=".PlaylistActivity" />
+        <activity android:name=".AllSongsActivity"
+            android:label="@string/app_name"
+            />
+        <activity android:name=".AllArtistsActivity"
+            android:label="@string/app_name"
+            />
+        <activity android:name=".AllAlbumsActivity"
+            android:label="@string/app_name"
+            >
+
         </activity>
     </application>
 
