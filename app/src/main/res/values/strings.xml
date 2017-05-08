@@ -23,7 +23,12 @@
 
         1. Play the whole playlist or choose a particular song\n\n
 
-        Challenges: nextRandomInt for generating random Android studio shortcuts from the list
+        Classes/Libraries: \n
+        a) ContentResolver class to retrieve tracks on the device\n
+        b) MediaPlayer class to play audio\n
+        c) MediaController class to control playback\n
+        d) Android manifest permissions: WRITE_EXTERNAL_STORAGE and READ_EXTERNAL_STORAGE\n
+        e) nextRandomInt for generating random Android studio shortcuts from the list\n
 
     </string>
 

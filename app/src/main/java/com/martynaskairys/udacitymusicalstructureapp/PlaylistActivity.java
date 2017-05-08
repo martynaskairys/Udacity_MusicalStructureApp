@@ -19,6 +19,8 @@ public class PlaylistActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(PlaylistActivity.this, SongActivity.class);
                 startActivity(i);
+                finish();
+
 
             }
         });

@@ -24,6 +24,8 @@ public class AllArtistsActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(AllArtistsActivity.this, AllSongsActivity.class);
                 startActivity(i);
+                finish();
+
             }
         });
 
@@ -33,6 +35,8 @@ public class AllArtistsActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(AllArtistsActivity.this, AllAlbumsActivity.class);
                 startActivity(i);
+                finish();
+
             }
         });
 
@@ -42,6 +46,8 @@ public class AllArtistsActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(AllArtistsActivity.this, AllArtistsActivity.class);
                 startActivity(i);
+                finish();
+
             }
         });
 
@@ -51,6 +57,8 @@ public class AllArtistsActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(AllArtistsActivity.this, AllPlaylistsActivity.class);
                 startActivity(i);
+                finish();
+
             }
         });
     }
